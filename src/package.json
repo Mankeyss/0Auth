@@ -1,0 +1,14 @@
+{
+  "name": "verify",
+  "version": "1.0.0",
+  "description": "Easy verification platform",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@mankeyss on discord",
+  "license": "ISC",
+  "dependencies": {
+    "express-session": "^1.17.3"
+  }
+}

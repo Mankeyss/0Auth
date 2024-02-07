@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+:root {
+    --font-family: "Poppins", sans-serif;
+    --font-size: 18px;
+
+    --text-color: rgb(206, 44, 44);
+    --secondary-text-color: rgb(255, 255, 255);
+
+    --background-color: rgb(255, 255, 255);
+    --secondary-background-color: rgb(206, 44, 44);
+
+    --rounded-edges: 5px;
+
+    --border-properties: solid rgb(206, 44, 44) 2px;
+
+    --button-width: 200px;
+    --button-height: 50px;
+
+    --button-padding-right: 5px;
+    --button-padding-left: 5px;
+    --button-padding-top: 2px;
+    --button-padding-bottom: 2px;
+
+    --button-margin-right:5px;
+    --button-margin-left:5px;
+    --button-margin-top:10px;
+    --button-margin-bottom:10px;
+}
+
+#verifyauthbutton {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+
+    color: var(--text-color);
+    background-color: var(--background-color);
+
+    border-radius: var(--rounded-edges);
+
+    border: var(--border-properties);
+
+    width: var(--button-width);
+    height: var(--button-height);
+
+    padding-right: var(--button-padding-right);
+    padding-left: var(--button-padding-left);
+    padding-top: var(--button-padding-top);
+    padding-bottom: var(--button-padding-bottom);
+
+    margin-right: var(--button-margin-right);
+    margin-left: var(--button-margin-left);
+    margin-top: var(--button-margin-top);
+    margin-bottom: var(--button-margin-bottom);
+
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    line-height: var(--button-height);
+    text-align: center;
+    user-select: none;
+
+    overflow: hidden;
+
+    transition: color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#verifyauthbutton:hover {
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-background-color);
+    box-shadow: 0px 0px 10px 1px var(--secondary-background-color);
+}

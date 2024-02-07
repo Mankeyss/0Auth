@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0Auth</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../fonts/fonts.css">
+    <link rel="stylesheet" href="/api/v1/buttoncss">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <div class="nav-bar">
+        <a class="nav-bar-item" id="nav-bar-item-1" href="">Home</a>
+        <a class="nav-bar-item" id="nav-bar-item-2" href="#">Pricing</a>
+        <a class="nav-bar-item" id="nav-bar-item-3" href="#">How it works</a>
+        <a class="nav-bar-item" id="nav-bar-item-4" href="/login">Login</a>
+    </div>
+    <div class="nav-bar-underline">
+        <div class="underline" id="underline"></div>
+    </div>
+    <p class="title">Simple yet effective verification platform<br>Reimagine Authentication</p>
+    <a href="/register">Create account</a>
+    <button>Learn more</button>
+    <!--<a id="verifyauthbutton" href="/authorize" target="popup" onclick="window.open('http:/' + '/localhost:8940/loginexternally?redir=localhost:8940','popup','width=800,height=600')">Connect With Verify</a>-->
+    <a id="verifyauthbutton" href="/authorize?redir=http://localhost:8940/test">Sign In With 0Auth</a>
+</body>
+</html>

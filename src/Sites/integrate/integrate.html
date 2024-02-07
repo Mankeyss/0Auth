@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrate | 0Auth</title>
+    <link rel="stylesheet" href="../../fonts/fonts.css">
+    <link rel="stylesheet" href="integrate.css">
+</head>
+<body>
+    <p class="title">Integrate Verify Onto Your Website<br><span class="title-small">In 3 Simple Steps</span></p>
+    <div class="steps">
+        <div class="step">
+            <p class="number-highlight">1</p>
+            <p>Create a</p>
+            <code><xmp>/0Auth</xmp></code>
+            <p>page and add the following code</p>
+            <code><xmp><script src="http://localhost:8940/api/v1/datadecoder" data-redirurl="/dashboard" id="dataDecoder"></script></script></xmp></code>
+            <p>change the </p><code><xmp>data-redirurl</xmp></code><p> parameter to a prefered page when the authentication is a success</p>
+        </div>
+        <div class="step">
+            <p class="number-highlight">2</p>
+            <p>Create a button</p>
+            <code><xmp><a id="verifyauthbutton" href="http://localhost:8940/authorize?redir=http://localhost:8940/0Auth">Sign In With 0Auth</a></xmp></code>
+            <p>and don't forget to change the redir parameter to your</p><code><xmp>/0Auth</xmp></code><p>page</p>
+        </div>
+        <div class="step">
+            <p class="number-highlight">3</p>
+            <p>Add the styling for the button in the same file as the button</p>
+            <code><xmp><link rel="stylesheet" href="http://localhost:8940/api/v1/buttoncss"></xmp></code>
+        </div>
+    </div>
+</body>
+</html>
